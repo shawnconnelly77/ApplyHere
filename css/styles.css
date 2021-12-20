@@ -1,0 +1,15 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    padding: 10px;
+}
+.btn-outline-primary {
+    color: #6f42c1;
+    border-color: #6f42c1;
+}
+.btn-outline-primary:hover {
+    color: white;
+    border-color: #6f42c1;
+    background-color: #6f42c1;
+}
