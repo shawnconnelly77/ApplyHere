@@ -1,15 +1,47 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+a:hover {
+    color: #6610f2;
+}
 header {
-    padding: 10px;
+    border-bottom: 2px solid #6f42c1;
 }
-.btn-outline-primary {
+#dropdownNav {
+    position: absolute;
+}
+.bi {
     color: #6f42c1;
-    border-color: #6f42c1;
 }
-.btn-outline-primary:hover {
-    color: white;
-    border-color: #6f42c1;
-    background-color: #6f42c1;
+.bi:hover {
+    color: #6610f2;;
+}
+.bi-facebook {
+    font-size: 1.5rem;
+    margin: 0px 10px;
+}
+.bi-instagram {
+    font-size: 1.5rem;
+    margin: 0px 10px;
+}
+.bi-twitter {
+    font-size: 1.5rem;
+    margin: 0px 10px;
+}
+.btn:focus {
+    box-shadow: none;
+  }
+.copyright {
+    padding-left: 10px;
+}
+.logolink {
+        font-family: "Days One", sans-serif;
+        color: #6f42c1;
+        text-decoration: none;
+}
+.navbar-toggler {
+    color: #6f42c1;
+}
+.navbar-toggler:hover {
+    color: #6610f2;
 }
