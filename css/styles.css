@@ -16,6 +16,7 @@ p {
 
 #dropdownNav {
     position: absolute;
+    z-index: 3;
 }
 
 .bi, .navbar-toggler {
