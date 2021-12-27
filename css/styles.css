@@ -1,47 +1,66 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
 a:hover {
     color: #6610f2;
 }
+
 header {
     border-bottom: 2px solid #6f42c1;
 }
+
 #dropdownNav {
     position: absolute;
 }
+
 .bi {
     color: #6f42c1;
 }
+
+.bi-mailbox {
+    font-size: 2rem; 
+    padding: 0px; 
+    margin: 0px;
+}
+
 .bi:hover {
     color: #6610f2;;
 }
-.bi-facebook {
+
+.bi-social-footer {
     font-size: 1.5rem;
     margin: 0px 10px;
 }
-.bi-instagram {
-    font-size: 1.5rem;
-    margin: 0px 10px;
-}
-.bi-twitter {
-    font-size: 1.5rem;
-    margin: 0px 10px;
-}
+
 .btn:focus {
     box-shadow: none;
   }
+
 .copyright {
     padding-left: 10px;
 }
+
 .logolink {
         font-family: "Days One", sans-serif;
         color: #6f42c1;
         text-decoration: none;
 }
+
 .navbar-toggler {
     color: #6f42c1;
 }
+
 .navbar-toggler:hover {
     color: #6610f2;
+}
+
+.nav-tabs {
+    margin-top: 25px;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }

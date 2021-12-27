@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <head>
+      <!-- Required meta tags always come first -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+      <!-- Additional CSS must be placed after Bootstrap CSS -->
+      <!-- build:css css/main.css -->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /><!--icons-->
+      <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" /><!--more icons-->
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /><!--more icons-->
+      <link rel="stylesheet" href="css/styles.css" />
+      <!-- endbuild -->
+      <!--Google fonts for logo-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Days One">
+  
+      <title>Apply Here</title>
+  </head>
 
-        <!-- Additional CSS must be placed after Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /><!--icons-->
-        <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" /><!--more icons-->
-        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /><!--more icons-->
-        <link rel="stylesheet" href="css/styles.css" />
-    
-        <title>Apply Here</title>
-    </head>
-
-    <body>
-      <header>
-        <div class="container-fluid"> 
+  <body>
+    <header>
+      <div class="container-fluid"> 
+        <div class="row">
           <!--Nav menu toggle-->
-          <div class="row">
-            <div class="col">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" role="navigation">
+          <div class="col-4 d-flex align-items-center">
+            <nav>
+              <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdownNav" aria-expanded="false" aria-controls="dropdownNav" role="navigation">
               <i class="fa fa-solid fa-bars fa-lg"></i>
               </button>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="dropdownNav">
                 <div class="card card-body">
                   <ul class="nav flex-column">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -38,66 +41,105 @@
                   </ul>
                 </div>
               </div>
-            </div>
-            <!--Name logo-->
-            <div class="col mx-auto"><h1 class="text-center"><a class="logolink" href="index.html">Apply Here</a></h1></div>
-            
-            <!--Message Center-->
-            <div class="col">
-              <button class="btn btn-outline-primary float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <i class="bi bi-mailbox fa-lg"></i>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Message Center</h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
+            </nav>
+          </div>
+
+          <!--Name logo-->
+          <div class="col-4 d-flex align-self-center justify-content-center"><h1><a class="logolink" href="index.html">Apply Here</a></h1></div>
+          
+          <!--Message Center-->
+          <div class="col-4">
+            <button class="btn float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <i class="bi bi-mailbox"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Message Center</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
 
+    <!--Tabs for candidate portal-->
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#invites" role="tab" data-toggle="tab">Job Invites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#preferences" role="tab" data-toggle="tab">Preferences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills" role="tab" data-toggle="tab">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience" role="tab" data-toggle="tab">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#profile" role="tab" data-toggle="tab">Profile</a>
+        </li>
+      </ul>
 
+    <!--Tabbed content for candidate portal (activated by tabs above)-->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade show active" id="invites">
+            <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
+            <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="preferences">
+            <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
+            <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="skills">
+            <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop.</small></h4>
+            <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="experience">
+            <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+            <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="profile">
+          <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+          <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+        </div>
+      </div>
+    </div>
 
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+  </body>
 
-        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        
-        <script>
-        //Placeholder for custom Javascript code.
-        </script>
-    </body>
-
-
-
-    </html>
+</html>
