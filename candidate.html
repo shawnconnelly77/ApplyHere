@@ -80,7 +80,7 @@
     <div class="container">
       <ul class="nav nav-tabs flex-column flex-sm-row" role="tablist">
         <li class="nav-item">
-          <button class="nav-link active" id="invites-tab" data-bs-target="#invites" role="tab" data-bs-toggle="tab">Job Invites</button>
+          <button class="nav-link active" id="invites-tab" data-bs-target="#invites" role="tab" data-bs-toggle="tab">Apply Invites</button>
         </li>
         <li class="nav-item">
           <button class="nav-link" id="preferences-tab" data-bs-target="#preferences" role="tab" data-bs-toggle="tab">Preferences</button>
@@ -98,11 +98,44 @@
 
     <!--New tabbed content panels-->
     <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="invites" role="tabpanel" aria-labelledby="invites-tab">You have no new invites.</div>
-      <div class="tab-pane fade" id="preferences" role="tabpanel" aria-labelledby="preferences-tab">Select job preferences.</div>
-      <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">Select skill levels.</div>
-      <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">Enter work history.</div>
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Personal information</div>
+      <div class="tab-pane fade show active" id="invites" role="tabpanel" aria-labelledby="invites-tab">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Job Title</th>
+              <th scope="col">Company</th>
+              <th scope="col">Location</th>
+              <th scope="col">Flexibility</th>
+              <th scope="col">Salary</th>
+              <th scope="col">Accept</th>
+              <th scope="col">Reject</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web Developer</td>
+              <td>Alphabet - Google</td>
+              <td>New York, NY</td>
+              <td>Hybrid</td>
+              <td>$125,000</td>
+              <td><a href="www.gooogle.com">Accept</a></td>
+              <td><a href="www.gooogle.com">Reject</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="preferences" role="tabpanel" aria-labelledby="preferences-tab">Select job preferences.
+
+      </div>
+      <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">Select skill levels.
+
+      </div>
+      <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">Enter work history.
+
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Personal information
+
+      </div>
     </div>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
