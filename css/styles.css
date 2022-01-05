@@ -1,110 +1,83 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    height: 100%;
-}
+  font-family: "Open Sans", sans-serif;
+  height: 100%; }
 
 a:hover, .bi:hover, .navbar-toggler:hover {
-    color: #6610f2;
-}
+  color: #6610f2; }
 
 .btn-lg:hover {
-    background-color: #6610f2 !important;
-}
+  background-color: #6610f2 !important; }
 
 header {
-    border-bottom: 2px solid #6f42c1;
-}
+  border-bottom: 2px solid #6f42c1; }
 
 p {
-    margin: 10px;
-}
+  margin: 10px; }
 
 #dropdownNav {
-    position: absolute;
-    z-index: 3;
-}
+  position: absolute;
+  z-index: 3; }
 
 #loginForm {
-    width: 60%;
-    margin: 25px 0;
-}
+  width: 60%;
+  margin: 25px 0; }
 
 .bi, .navbar-toggler {
-    color: #6f42c1;
-}
+  color: #6f42c1; }
 
 .bi-mailbox {
-    font-size: 2rem; 
-    padding: 0px; 
-    margin: 0px;
-}
+  font-size: 2rem;
+  padding: 0px;
+  margin: 0px; }
 
 .bi-social-footer {
-    font-size: 1.5rem;
-    margin: 0px 10px;
-}
+  font-size: 1.5rem;
+  margin: 0px 10px; }
 
 .btn:focus {
-    box-shadow: none;
-  }
+  box-shadow: none; }
 
 .btn-primary {
-    color: white;
-    background-color: #6f42c1;
-    border: none;
-}
+  color: white;
+  background-color: #6f42c1;
+  border: none; }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel-item {
-    width: 100%;
-    height: 600px;
-}
+  width: 100%;
+  height: 600px; }
 
 .copyright {
-    padding-left: 10px;
-}
+  padding-left: 10px; }
 
 .logolink {
-        font-family: "Days One", sans-serif;
-        color: #6f42c1;
-        text-decoration: none;
-}
-
-/*responsive class to make footer stick to bottom of main content
-.main-body {
-    width: 100%;
-    height: 100%;
-}*/
+  font-family: "Days One", sans-serif;
+  color: #6f42c1;
+  text-decoration: none; }
 
 .nav-link {
-    color: #6f42c1;
-}
+  color: #6f42c1; }
 
 .nav-link.active {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 2px solid #6f42c1 !important;
-    color: #6f42c1 !important;
-}
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #6f42c1 !important;
+  color: #6f42c1 !important; }
 
 .nav-link:hover {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 2px solid #6610f2 !important;
-    color: #6610f2 !important;
-}
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #6610f2 !important;
+  color: #6610f2 !important; }
 
 .nav-tabs {
-    margin-top: 25px;
-    border: none;
-}
+  margin-top: 25px;
+  border: none; }
 
 .tab-content {
-    border: none;
-    padding: 10px;
-}
+  border: none;
+  padding: 10px; }

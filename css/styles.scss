@@ -1,0 +1,108 @@
+$myPrimaryPurple: #6f42c1;
+$mySecondaryIndigo: #6610f2;
+$carouselCaptionColor: rgba(0, 0, 0, 0.5);
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+a:hover, .bi:hover, .navbar-toggler:hover {
+    color: $mySecondaryIndigo;
+}
+
+.btn-lg:hover {
+    background-color: $mySecondaryIndigo !important;
+}
+
+header {
+    border-bottom: 2px solid $myPrimaryPurple;
+}
+
+p {
+    margin: 10px;
+}
+
+#dropdownNav {
+    position: absolute;
+    z-index: 3;
+}
+
+#loginForm {
+    width: 60%;
+    margin: 25px 0;
+}
+
+.bi, .navbar-toggler {
+    color: $myPrimaryPurple;
+}
+
+.bi-mailbox {
+    font-size: 2rem; 
+    padding: 0px; 
+    margin: 0px;
+}
+
+.bi-social-footer {
+    font-size: 1.5rem;
+    margin: 0px 10px;
+}
+
+.btn:focus {
+    box-shadow: none;
+  }
+
+.btn-primary {
+    color: white;
+    background-color: $myPrimaryPurple;
+    border: none;
+}
+
+.carousel-caption {
+    background-color: $carouselCaptionColor;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 600px;
+}
+
+.copyright {
+    padding-left: 10px;
+}
+
+.logolink {
+        font-family: "Days One", sans-serif;
+        color: $myPrimaryPurple;
+        text-decoration: none;
+}
+
+.nav-link {
+    color: $myPrimaryPurple;
+}
+
+.nav-link.active {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid $myPrimaryPurple !important;
+    color: $myPrimaryPurple !important;
+}
+
+.nav-link:hover {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid $mySecondaryIndigo !important;
+    color: $mySecondaryIndigo !important;
+}
+
+.nav-tabs {
+    margin-top: 25px;
+    border: none;
+}
+
+.tab-content {
+    border: none;
+    padding: 10px;
+}
